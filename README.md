@@ -50,5 +50,5 @@ then enter the parameter to calculate the area
 
 - 10 of Objects predefined methods
 - 10 of Arrays predefined methods
-## problem Solving
+## problem Solving Bouns
 https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true

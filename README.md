@@ -4,7 +4,7 @@ this is lab3 javaScript ITI 43
 
 lab has 3 parts 
 
-##part 1
+## part 1
 
 - task 1
 ```
@@ -24,7 +24,7 @@ Then do the operation and show the result to user
 bonus
 User will be able to use the last result to do new operation on it
 ```
-##part 2
+## part 2
 
 - task 1
 ```
@@ -50,7 +50,7 @@ if there is no match will print not found
 user enter shape name [circle,triangle,square,rectangle,parallelogram,trapezium,ellipse]
 then enter the parameter to calculate the area
 ```
-##part 3
+## part 3
 
 - 10 of Objects predefined methods
 - 10 of Arrays predefined methods

@@ -1,0 +1,11 @@
+
+
+function countApplesAndOranges(s, t, a, b, apples, oranges) {
+    // Write your code here
+    let distance=apples.map((apple)=>(apple+a));
+    let app=distance.filter((ap) => ap >= s && ap <= t).length;
+    let distance1=oranges.map((orange)=>(orange+b));
+    let org=distance1.filter((o) => o >= s && o <= t).length;
+    console.log(app);
+    console.log(org);
+}

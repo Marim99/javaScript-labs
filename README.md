@@ -41,7 +41,7 @@ user choose search by name or search by phone
 if there is no match will print not found
 ```
 
-- bouns Area calculator 
+- [x] bouns Area calculator 
 ```
 user enter shape name [circle,triangle,square,rectangle,parallelogram,trapezium,ellipse]
 then enter the parameter to calculate the area
@@ -51,4 +51,4 @@ then enter the parameter to calculate the area
 - 10 of Objects predefined methods
 - 10 of Arrays predefined methods
 ## problem Solving Bouns
-- [x] Problem in [**hacker Rank Link**] (https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true)
+- [x] Problem in [ **hacker Rank Link** ] ( https://www.hackerrank.com/challenges/apple-and-orange/problem?isFullScreen=true )

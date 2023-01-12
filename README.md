@@ -3,6 +3,7 @@
 this is lab3 javaScript ITI 43
 
 lab has 3 parts 
+
 ##part 1
 
 - task 1

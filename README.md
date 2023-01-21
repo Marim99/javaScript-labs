@@ -1,5 +1,5 @@
-# javaScript-labs
-this is labs for javaScript ITI 43
+# javaScript-lab4
+
 create object with 4 way 
 - [x] Constructor functions
 - [x] Using Classes

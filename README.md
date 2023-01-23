@@ -13,7 +13,7 @@ there are 3 classes
 | Office | name, employees | getAllEmployees (), getEmployee (), fire() ,hire() |
 
 ## function in My code
-> uniqueNumber To generate unique id
-> fillEmployee To fill employee (Manager or Normal Employee)
-> App 
+- uniqueNumber To generate unique id
+- fillEmployee To fill employee (Manager or Normal Employee)
+- App 
 

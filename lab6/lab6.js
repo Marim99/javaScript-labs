@@ -50,11 +50,12 @@ function Square1(sideLength) {
 Square1.prototype.calcArea = function () {
   console.log("Area", this.sideLength * this.sideLength);
 };
-//!
-console.log("part2");
+
+console.log("part2 protoType");
 const square_proto = new Square1(5);
 square_proto.calcArea();
-// square_proto.calcPerimeter();
+
+//!
 
 class Triple {
   static customName = "Tripler";

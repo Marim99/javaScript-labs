@@ -1,4 +1,4 @@
-class Shap {
+class Shape {
   constructor(name, sides, sideLength) {
     this.name = name;
     this.sides = sides;
@@ -10,12 +10,12 @@ class Shap {
   }
 }
 console.log("part1");
-const square = new Shap("square", 4, 5);
+const square = new Shape("square", 4, 5);
 square.calcPerimeter();
-const triangle = new Shap("triangle", 3, 3);
+const triangle = new Shape("triangle", 3, 3);
 triangle.calcPerimeter();
 
-class Square extends Shap {
+class Square extends Shape {
   constructor(sideLength) {
     super("square", 4, sideLength);
   }
@@ -29,24 +29,25 @@ square1.calcArea();
 square1.calcPerimeter();
 
 // ! obj in protoType
-function Shap1(name, sides, sideLength) {
+function Shape1(name, sides, sideLength) {
   this.name = name;
   this.sides = sides;
   this.sideLength = sideLength;
 }
-Shap1.prototype.calcPerimeter = function () {
+Shape1.prototype.calcPerimeter = function () {
   console.log("perimeter of", this.name, this.sideLength * this.sides);
 };
 
 console.log("part1 protoType");
-const square2 = new Shap1("square", 4, 5);
+const square2 = new Shape1("square", 4, 5);
 square.calcPerimeter();
-const triangle2 = new Shap1("triangle", 3, 3);
+const triangle2 = new Shape1("triangle", 3, 3);
 triangle.calcPerimeter();
 
 function Square1(sideLength) {
-  Shap1.call(this, "square", 4, sideLength);
+  Shape1.call(this, "square", 4, sideLength);
 }
+
 Square1.prototype.calcArea = function () {
   console.log("Area", this.sideLength * this.sideLength);
 };

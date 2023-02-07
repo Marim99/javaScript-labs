@@ -1,7 +1,7 @@
 # javaScript-labs
 
 ## lab 8 ToDo list 
-[Run Code](https://marim99.github.io/javaScript-labs/)
+
 
 ## features 
 - add new task

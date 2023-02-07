@@ -79,8 +79,6 @@ class App {
       () => document.querySelector(`[data-id="${taskId}"]`).remove(),
       800
     );
-
-    // location.reload();
   }
 }
 const app = new App();

@@ -49,7 +49,6 @@ const getLocalStorage = () => {
   list.forEach((toDo) => {
     renderWorkout(toDo);
   });
-  list.find;
 };
 const renderWorkout = (todo) => {
   let html;

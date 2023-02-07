@@ -1,0 +1,14 @@
+.task-item{
+    display: flex;
+    justify-content: space-between;
+}
+.task-icon {
+    cursor: pointer;
+  }
+.done{
+    text-decoration: line-through;
+}
+.ToDoList{
+    align-items: center;
+    height: 100vh;
+}

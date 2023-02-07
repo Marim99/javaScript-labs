@@ -1,3 +1,6 @@
+body{
+background-color: #ececec;
+}
 .task-item{
     display: flex;
     justify-content: space-between;
@@ -12,3 +15,55 @@
     align-items: center;
     height: 100vh;
 }
+ .card{
+    background: linear-gradient(
+        45deg,
+        rgba(7, 47, 179, 1) 12%,
+        rgba(44, 77, 184, 1) 27%,
+        rgba(30, 143, 199, 1) 58%,
+        rgba(39, 184, 217, 1) 75%
+      );
+} 
+.task {
+    -webkit-animation-name: slideInDown;
+    animation-name: slideInDown;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+    }
+    @keyframes slideInDown {
+    0% {
+    -webkit-transform: translateY(-100%);
+    transform: translateY(-100%);
+    visibility: visible;
+    }
+    100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+    }
+    } 
+
+.delete {
+
+backface-visibility: visible !important;
+animation-name: flipOutY;
+animation-duration: .75s;
+animation-duration: 1s;
+animation-fill-mode: both;
+}
+@keyframes flipOutY {
+0% {
+transform: perspective(400px);
+}     
+30% {
+transform: perspective(400px) rotate3d(0, 1, 0, -15deg);
+pacity: 1;
+ }
+        
+100% {
+transform: perspective(400px) rotate3d(0, 1, 0, 90deg);
+opacity: 0;
+
+}
+} 

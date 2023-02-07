@@ -3,5 +3,18 @@
 ## lab 8 ToDo list 
 
 
+## features 
+- add new task
+- delete task
+- all tasks are saved in local storage
 
-![bandicam 2023-02-07 15-19-26-644](https://user-images.githubusercontent.com/78925756/217256043-0e2fd850-36dc-444f-97fb-6a2a367fd062.jpg)
+## code flow
+  
+| class | Attributes | 	Methods  |
+| ------ | ------ | ------ |
+| Task |  id,content,isDone| ----- |
+| App | ------ | _renderTask,_newTask,_taskState,_setLocalStorage,_getLocalStorage,_deleteTask|
+
+
+https://user-images.githubusercontent.com/78925756/217372683-4d669058-3214-4f73-a0eb-677d36cfb2e7.mp4
+

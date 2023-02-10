@@ -1,0 +1,174 @@
+body{
+display: flex;
+justify-content: center;
+background: linear-gradient(
+    259deg,
+    rgb(0, 6, 40) 19%,
+    rgb(42, 45, 83) 47%,
+    rgb(6, 4, 46) 67%,
+    rgb(2, 4, 69) 89%
+  );
+  background-blend-mode: normal;
+}
+.container{
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+padding: 20px;
+background-color: #f9f9f9;
+border: 1px solid #cacaca;
+margin: 0;
+border-radius: 1.8rem;
+}
+.clock__container{
+    background: linear-gradient(
+        259deg,
+        rgb(0, 6, 40) 19%,
+        rgb(42, 45, 83) 47%,
+        rgb(6, 4, 46) 67%,
+        rgb(2, 4, 69) 89%
+      );
+    padding: 2.2rem;
+    border-radius: 1.1rem;
+
+}
+.clock{
+    display: flex;
+    justify-content: space-around;
+    background-color: aliceblue;
+    align-items: center;
+    font-size: 10rem;
+    width: fit-content;
+    height: fit-content;
+    padding: 1.5rem;
+    border-radius: 1.1rem;
+}
+.date{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row-reverse;
+    color: #aaa;
+}
+.today{
+   color:#fff;
+   background-color: #cacaca;
+   padding: 0.2rem;
+   border-radius: 1.1rem;
+   margin-bottom: 1.1rem;
+padding: 0 5px;
+}
+.clock__icon{
+    background-image: url('/assets/clock1.svg');
+    background-size: cover;
+    margin-top: 5px;
+    padding: 5px;
+    width: 15px;
+    height: 15px;
+    
+}
+.form{
+    display: flex;
+    justify-content: center;
+
+}
+.alarmName{
+padding: 10px;
+margin-top: 10px;
+border: none;
+background-color: #aaa;
+border-radius: 1.2rem;
+}
+.alarm__name{
+    color: #aaa;
+}
+.form__row{
+ display: flex;
+ justify-content: center;
+ background-color: #e9e7e7; 
+ margin-right: 1.5rem;
+ border-radius: 1.1rem;
+ flex-direction: column;
+ padding: 1.1rem;
+}
+.form__label{
+    text-align: center;
+}
+.form__input{
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+    margin: 1.5rem;
+    border: none;
+    border-radius: 1.1rem;
+    cursor: pointer;
+}
+.zone{
+    height: 30px;
+    margin-top: 80px;
+}
+input:focus{
+    outline: none;
+}
+.form__btn {
+    display: none;
+}
+.alarm{
+    display: flex;
+    justify-content: center;
+    padding: 1.1rem;
+}
+.alarm-list{
+    list-style: none;
+    margin: 0;
+    padding: 0  ;
+}
+.alarm-item{
+    display: flex;
+    justify-content: space-around;
+    font-size: 30px;
+}
+.alarm__text{
+    width: 60px;
+    height: 40px;
+    background-color: #fff;
+    padding: 1.1rem;
+    text-align: center;
+    margin-right: 1.5rem;
+    border-radius: 1.1rem;
+}
+.alarm-container{
+    display: flex;
+    justify-content: space-between;
+    background: linear-gradient(
+        259deg,
+        rgb(0, 6, 40) 19%,
+        rgb(42, 45, 83) 47%,
+        rgb(6, 4, 46) 67%,
+        rgb(2, 4, 69) 89%
+      );
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 1.2rem;
+}
+.alarm__text__span{
+    font-size: 15px;
+    color: #aaa;
+}
+.alarm-btn{
+    width: 25px;
+    margin-top: 40px;
+    cursor: pointer;
+    transition: all 0.4s;
+}
+.alarm-btn:hover{
+   
+    transform: scale(1.2);
+}
+.alarm-btn img{
+    transition: all 0.4s;
+}
+.alarm-btn img:hover{
+    transform: rotate(180deg);
+}

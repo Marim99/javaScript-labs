@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style/clock.css" />
+    <title>Document</title>
+
+    <script defer src="./script/clock.js"></script>
+  </head>
+  <body>
+    <!--! clock  -->
+    <div class="container">
+      <section class="clock__container">
+        <div class="date"></div>
+        <div class="clock"></div>
+        <div class="clock__icon"></div>
+      </section>
+      <section class="alarm">
+        <div class="alarmList">
+          <ul class="alarm-list"></ul>
+        </div>
+      </section>
+
+      <section>
+        <form class="form">
+          <div class="form__row">
+            <label class="form__label">Hours</label>
+            <input
+              class="form__input form__input--hour"
+              placeholder="0"
+              value="0"
+            />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Minutes</label>
+            <input
+              class="form__input form__input--minute"
+              placeholder="0"
+              value="0"
+            />
+          </div>
+          <div class="form__row">
+            <label class="form__label">Seconds</label>
+            <input
+              class="form__input form__input--second"
+              placeholder="0"
+              value="0"
+            />
+          </div>
+          <button class="form__btn">OK</button>
+        </form>
+        <input type="text" placeholder="Alarm Name" class="alarmName" />
+      </section>
+    </div>
+  </body>
+</html>

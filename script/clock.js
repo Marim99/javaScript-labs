@@ -26,15 +26,6 @@ class Alarm {
     this.currTime = currTime;
     this.alarmName = alarmName;
   }
-  _isTime(alarm) {
-    if (
-      this.hour === alarm.hour &&
-      this.minute === alarm.minute &&
-      this.sec === alarm.sec
-    )
-      return true;
-    return false;
-  }
 }
 class App {
   #today;
